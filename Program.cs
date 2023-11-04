@@ -1,5 +1,4 @@
-﻿using System.Net;
-using Telegram.Bot;
+﻿using Telegram.Bot;
 using Telegram.Bot.Types;
 
 namespace NailTelegramBot
@@ -10,12 +9,13 @@ namespace NailTelegramBot
         {
             try
             {
-                var httpListener = new HttpListener();
-                httpListener.Prefixes.Add("https://nailtelegrambot-denisevici.amvera.io:80/");
-                httpListener.Start();
+                //var httpListener = new HttpListener();
+                //httpListener.Prefixes.Add("https://nailtelegrambot-denisevici.amvera.io:80/");
+                //httpListener.Start();
 
                 var botClient = new TelegramBotClient("6356956562:AAE9c3LbqBndtBL11EOIRTb9xYn55ksczGg");
                 botClient.StartReceiving(Update, Error);
+                
                 Console.WriteLine("READY TO WORK");
                 while (true) { }
             }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xIu1RCBeKmI6MP8IJO7HXDGQ3wNVARXCd/mjLSEQM7nec0ZDr3FYXWc4ZU/FzilsxhlJL3FgbdxUvCiAY6+hyw==",
+  "dgSpecHash": "QfiEbQE1LLVEjepmnQJ+UBZ0VEbftb2dUkQyX5HI8GBHydYPHytSYOUdmB2cKm56TUaW/k00heg/mPddDBUPZg==",
   "success": true,
   "projectFilePath": "C:\\Denisevici\\Programs\\PersonalProjects\\NailTelegramBot\\NailTelegramBot.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dkomerzan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\dkomerzan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\dkomerzan\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512",
     "C:\\Users\\dkomerzan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",

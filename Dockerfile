@@ -20,4 +20,5 @@ RUN dotnet publish "NailTelegramBot.csproj" -c Release -o /app/publish /p:UseApp
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+EXPOSE 80
 ENTRYPOINT ["dotnet", "NailTelegramBot.dll"]
